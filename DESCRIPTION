@@ -1,0 +1,57 @@
+Package: EHML
+Title: Easy Hyperparameter Optimization for Machine Learning
+Version: 0.1.0
+Authors@R: 
+    person("Sicong", "Zheng",
+           email = "zhengsicong020655@163.com",
+           role = c("aut", "cre"))
+Description: EHML (Easy Hyperparameter Optimization for Machine Learning)
+    is a user-friendly framework for machine learning model development.
+    The package integrates feature selection, hyperparameter optimization,
+    model construction, performance evaluation, and applicability assessment.
+    It supports multiple machine learning algorithms and provides automated
+    recommendations based on sample size, outcome balance, and predictor
+    dimensions. EHML is designed to facilitate reproducible and interpretable
+    machine learning analyses in biomedical and clinical research.
+    For reproducibility, 'plsRglm' version 1.5.1 and 'xgboost' version
+    1.5.2.1 are recommended. Most algorithms are implemented in R,
+    whereas the neural network module requires a separately installed
+    Python environment with compatible versions of 'Keras' and
+    'TensorFlow'. Users should configure Python before running the
+    neural network module.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests:
+    catboost,
+    ggplot2,
+    nnet,
+    plsRglm (== 1.5.1),
+    xgboost (== 1.5.2.1)
+SystemRequirements: Python (required for neural network models),Keras, TensorFlow    
+Config/roxygen2/version: 8.1.0
+Imports: 
+    Boruta,
+    caret,
+    circlize,
+    class,
+    ComplexHeatmap,
+    dplyr,
+    e1071,
+    gbm,
+    ggsci,
+    glmnet,
+    grid,
+    keras,
+    kernlab,
+    MASS,
+    mboost,
+    pROC,
+    randomForest,
+    randomForestSRC,
+    reticulate,
+    rlang,
+    spiralize,
+    tensorflow,
+    tibble,
+    tree
