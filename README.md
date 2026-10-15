@@ -3,7 +3,7 @@
 **EHML** is an R-based framework designed to facilitate machine learning model development, hyperparameter optimization, feature selection, model evaluation, and performance visualization.
 
 The framework integrates multiple machine learning algorithms into a unified workflow for binary classification tasks, with a particular focus on biomedical and clinical research.
-
+![EHML Workflow](mainfigure-01.png)
 ## Key Features
 
 - **Data preparation:** Organization of training and validation datasets for binary classification.
